@@ -20,7 +20,7 @@ plugins {
     `java-test-fixtures`
     id("application")
     alias(libs.plugins.shadow)
-    id("com.bmuschko.docker-remote-api") version "9.3.6"
+    id("com.bmuschko.docker-remote-api") version "9.4.0"
 }
 
 group = "org.eclipse.tractusx.mxd.backendservice"
