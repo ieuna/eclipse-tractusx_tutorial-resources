@@ -46,7 +46,7 @@ updates:
   - package-ecosystem: "gradle" # checks build.gradle(.kts), settings.gradle(.kts) and libs.versions.toml
     directory: "/mxd/backend-service"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 5
     labels:
       - "dependencies"
