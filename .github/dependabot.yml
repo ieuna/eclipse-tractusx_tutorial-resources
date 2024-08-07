@@ -30,24 +30,12 @@ updates:
       - "dependencies"
       - "github_actions"
 
-  # maintain dependencies for Gradle
-  - package-ecosystem: "gradle" # checks build.gradle(.kts) and settings.gradle(.kts)
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 5
-    labels:
-      - "dependencies"
-      - "java"
-    ignore:
-      - dependency-name: "org.eclipse.edc:edc-versions"
-
   # maintain dependencies for backend service
   - package-ecosystem: "gradle" # checks build.gradle(.kts), settings.gradle(.kts) and libs.versions.toml
     directory: "/mxd/backend-service"
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 15
     labels:
       - "dependencies"
       - "java"
