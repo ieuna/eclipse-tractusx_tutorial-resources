@@ -31,7 +31,7 @@ updates:
       - "github_actions"
 
   # maintain dependencies for Gradle
-  - package-ecosystem: "gradle" # checks build.gradle(.kts) and settings.gradle(.kts)
+  - package-ecosystem: "gradle" # checks build.gradle(.kts), settings.gradle(.kts)
     directories:
       - "/"
       - "/mxd/backend-service"
