@@ -7,7 +7,7 @@ commons = "2.11.0"
 jupiter = "5.10.1"
 restAssured = "5.4.0"
 postgresql = "42.7.2"
-testcontainers = "1.19.7"
+testcontainers = "1.20.2"
 
 [libraries]
 edc-boot = {module = "org.eclipse.edc:boot" , version.ref="edc"}
